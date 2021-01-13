@@ -1,17 +1,20 @@
-const nodeOne = {
-    next: nodeTwo,
+node_one = {
+    next: node_two,
     value: 1
 }
 
-const nodeTwo = {
-    next: nodeThree,
+node_two = {
+    next: node_three,
     value: 2
 }
 
-const nodeThree = {
+node_three = {
     next: null,
     value: 3
 }
 
-const reverseLinkedList = (node) => {
-}
+def reverse(head):
+    return new_head
+
+# end result: three -> two -> one -> null
+# function takes in one as argument
